@@ -15,7 +15,7 @@ translators:
 # 使用 Diffusers 通过 Dreambooth 技术来训练 Stable Diffusion
 
 
-[Dreambooth](https://dreambooth.github.io/) 是一种使用专门的微调形式来训练 [Stable Diffusion](https://huggingface.co/blog/stable_diffusion) 的新概念技术。一些人用他仅仅使用很少的他们的照片训练出了一个很棒的照片，有一些人用他去尝试新的风格。🧨 Diffusers 提供一个 [DreamBooth 训练脚本](https://github.com/huggingface/diffusers/tree/main/examples/DreamBooth)。这使得训练不会花费很长时间，但是他比较难筛选正确的超参数并且容易过拟合。
+[Dreambooth](https://dreambooth.github.io/) 是一种使用专门的微调形式来训练 [Stable Diffusion](https://huggingface.co/blog/stable_diffusion) 的新概念技术。一些人用他仅仅使用很少的他们的照片训练出了一个很棒的照片，有一些人用他去尝试新的风格。🧨 Diffusers 提供一个 [DreamBooth 训练脚本](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth)。这使得训练不会花费很长时间，但是他比较难筛选正确的超参数并且容易过拟合。
 
 我们做了许多实验来分析不同设置下 DreamBooth 的效果。本文展示了我们的发现和一些小技巧来帮助你在用 DreamBooth 微调 Stable Diffusion 的时候提升结果。
 
